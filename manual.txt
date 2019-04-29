@@ -1,0 +1,17 @@
+Príkazy:
+
+hire <ass/tech/dev/dir> name surname id     - pridanie zamestnanca
+fire id                                     - prepustenie zamestnanca
+ill id                                      - ochorenie zamestnanca
+
+assign <adm/tech/dev> hours                 - pridelenie práce
+cancel <adm/tech/dev> hours                 - zrušenie práce
+do <adm/tech/dev> id                        - aktivácia zamestnanca
+max hours                                   - nastavenie maximálneho úväzku
+
+print emps                                  - výpis všetkých zamestnancov
+print spend                                 - výpis mesačných nákladov
+print pos                                   - výpis počtu zamestnancov na jednotlivých pozíciach + voľné úväzky
+
+save name                                   - uložiť databázu s daným menom
+load name                                   - načítať databázu s daným menom
