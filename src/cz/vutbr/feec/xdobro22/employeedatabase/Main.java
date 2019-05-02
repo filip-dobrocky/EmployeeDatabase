@@ -68,6 +68,7 @@ public class Main {
                     default:
                         throw invalidInputException;
                 }
+                correctInput = true;
                 if (running)
                     System.out.print("> ");
             } catch (IllegalArgumentException e) {
